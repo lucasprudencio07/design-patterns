@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0be7ae9a-23ac-4fbe-95fe-4bbfb3b0a49c" name="Default Changelist" comment="" />
+    <list default="true" id="0be7ae9a-23ac-4fbe-95fe-4bbfb3b0a49c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/design_patterns/builder/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/design_patterns/builder/InvoiceBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/design_patterns/builder/InvoiceTestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/design_patterns/builder/NoteItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1ZqzOW82qBUuPOqmnwIIS7OhTq6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,11 +34,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.ExtraDiscountMain">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.alura.design_patterns.builder" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.InvoiceTestMain">
     <configuration name="ComplexTaxMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alura.design_patterns.decorator.ComplexTaxMain" />
       <module name="design-patterns" />
@@ -54,12 +71,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.alura.design_patterns.strategy.TestTaxesMain" />
+    <configuration name="InvoiceTestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alura.design_patterns.builder.InvoiceTestMain" />
       <module name="design-patterns" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alura.design_patterns.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InvoiceTestMain" />
         <item itemvalue="Application.ExtraDiscountMain" />
         <item itemvalue="Application.ComplexTaxMain" />
         <item itemvalue="Application.TestTaxRateMain" />
         <item itemvalue="Application.TestDiscountsMain" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -126,54 +146,54 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1585865804443">
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1586264950359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585865804443" />
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586264950359" />
     <state x="72" y="140" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585855217160">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="72" y="140" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1585855217160" />
-    <state x="491" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585690054799">
+    <state x="491" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586271645462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="491" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1585690054799" />
-    <state width="1537" height="180" key="GridCell.Tab.0.bottom" timestamp="1585866443453">
+    <state x="491" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1586271645462" />
+    <state width="1537" height="180" key="GridCell.Tab.0.bottom" timestamp="1586272929268">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585866443453" />
-    <state width="1537" height="180" key="GridCell.Tab.0.center" timestamp="1585866443452">
+    <state width="1537" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586272929268" />
+    <state width="1537" height="180" key="GridCell.Tab.0.center" timestamp="1586272929268">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="180" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585866443452" />
-    <state width="1537" height="180" key="GridCell.Tab.0.left" timestamp="1585866443452">
+    <state width="1537" height="180" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586272929268" />
+    <state width="1537" height="180" key="GridCell.Tab.0.left" timestamp="1586272929268">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="180" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585866443452" />
-    <state width="1537" height="180" key="GridCell.Tab.0.right" timestamp="1585866443453">
+    <state width="1537" height="180" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586272929268" />
+    <state width="1537" height="180" key="GridCell.Tab.0.right" timestamp="1586272929268">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="180" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585866443453" />
-    <state width="1537" height="270" key="GridCell.Tab.1.bottom" timestamp="1585854935042">
+    <state width="1537" height="180" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586272929268" />
+    <state width="1537" height="270" key="GridCell.Tab.1.bottom" timestamp="1586272920129">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="270" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585854935042" />
-    <state width="1537" height="270" key="GridCell.Tab.1.center" timestamp="1585854935042">
+    <state width="1537" height="270" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586272920129" />
+    <state width="1537" height="270" key="GridCell.Tab.1.center" timestamp="1586272920129">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="270" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585854935042" />
-    <state width="1537" height="270" key="GridCell.Tab.1.left" timestamp="1585854935041">
+    <state width="1537" height="270" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586272920129" />
+    <state width="1537" height="270" key="GridCell.Tab.1.left" timestamp="1586272920128">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="270" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585854935041" />
-    <state width="1537" height="270" key="GridCell.Tab.1.right" timestamp="1585854935042">
+    <state width="1537" height="270" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586272920128" />
+    <state width="1537" height="270" key="GridCell.Tab.1.right" timestamp="1586272920129">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="270" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585854935042" />
-    <state x="279" y="57" key="SettingsEditor" timestamp="1585603829509">
+    <state width="1537" height="270" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586272920129" />
+    <state x="279" y="57" key="SettingsEditor" timestamp="1586264661195">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="279" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585603829509" />
+    <state x="279" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586264661195" />
     <state x="73" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1586201037989">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -183,9 +203,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1585838570607" />
-    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585854332096">
+    <state x="410" y="139" width="700" height="530" key="recent.locations.popup" timestamp="1586264598664">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585854332096" />
+    <state x="410" y="139" width="700" height="530" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" timestamp="1586264598664" />
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586264627119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586264627119" />
   </component>
 </project>
