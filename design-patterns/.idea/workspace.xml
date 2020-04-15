@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0be7ae9a-23ac-4fbe-95fe-4bbfb3b0a49c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/alura/design_patterns/observer/ActionAfterGenerateInvoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/design_patterns/observer/EmailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/design_patterns/observer/InvoiceObserverBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/design_patterns/observer/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/design_patterns/observer/SendDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/design_patterns/observer/SmsSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/design_patterns/observer/TestObserverMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/design_patterns_II/factory/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/design_patterns_II/factory/CommercialPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/design_patterns_II/factory/DomesticPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/design_patterns_II/factory/IndustrialPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/design_patterns_II/factory/Plan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/design_patterns_II/factory/PlanException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/design_patterns_II/factory/PlanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +39,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -51,7 +54,20 @@
       <recent name="com.alura.design_patterns.builder" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestObserverMain">
+  <component name="RunManager" selected="Application.Bill">
+    <configuration name="Bill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alura.design_patterns_II.factory.Bill" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alura.design_patterns_II.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ComplexTaxMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alura.design_patterns.decorator.ComplexTaxMain" />
       <module name="design-patterns" />
@@ -104,40 +120,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTaxRateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alura.design_patterns.template_method.TestTaxRateMain" />
-      <module name="design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.alura.design_patterns.template_method.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bill" />
         <item itemvalue="Application.TestObserverMain" />
         <item itemvalue="Application.InvoiceTestMain" />
         <item itemvalue="Application.ExtraDiscountMain" />
         <item itemvalue="Application.ComplexTaxMain" />
-        <item itemvalue="Application.TestTaxRateMain" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -153,34 +144,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1586283536274">
+    <state x="361" y="53" key="#Plugins" timestamp="1586986384150">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586283536274" />
-    <state x="72" y="140" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585855217160">
+    <state x="361" y="53" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1586986384150" />
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1586990087484">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="72" y="140" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1585855217160" />
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586990087484" />
+    <state x="72" y="140" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586808484259">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="72" y="140" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1586808484259" />
     <state x="491" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586271645462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="491" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1586271645462" />
-    <state width="1537" height="270" key="GridCell.Tab.0.bottom" timestamp="1586632989940">
+    <state width="1537" height="174" key="GridCell.Tab.0.bottom" timestamp="1586991726357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="270" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586632989940" />
-    <state width="1537" height="270" key="GridCell.Tab.0.center" timestamp="1586632989940">
+    <state width="1537" height="174" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586991726357" />
+    <state width="1537" height="174" key="GridCell.Tab.0.center" timestamp="1586991726356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="270" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586632989940" />
-    <state width="1537" height="270" key="GridCell.Tab.0.left" timestamp="1586632989940">
+    <state width="1537" height="174" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586991726356" />
+    <state width="1537" height="174" key="GridCell.Tab.0.left" timestamp="1586991726356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="270" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586632989940" />
-    <state width="1537" height="270" key="GridCell.Tab.0.right" timestamp="1586632989940">
+    <state width="1537" height="174" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586991726356" />
+    <state width="1537" height="174" key="GridCell.Tab.0.right" timestamp="1586991726357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="270" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586632989940" />
+    <state width="1537" height="174" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586991726357" />
     <state width="1537" height="270" key="GridCell.Tab.1.bottom" timestamp="1586632989940">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -197,10 +192,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1537" height="270" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586632989940" />
-    <state x="279" y="57" key="SettingsEditor" timestamp="1586264661195">
+    <state x="285" y="7" key="SettingsEditor" timestamp="1586986107426">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="279" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586264661195" />
+    <state x="285" y="7" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586986107426" />
     <state x="88" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586808382609">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -214,9 +209,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="410" y="139" width="700" height="530" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" timestamp="1586264598664" />
-    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586264627119">
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586986342759">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586264627119" />
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586986342759" />
   </component>
 </project>
